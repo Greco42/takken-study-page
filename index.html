@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宅建士試験 学習管理ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>宅建士試験 学習管理</h1>
+
+        <div class="progress-section">
+            <h2>学習進捗率</h2>
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <p id="progress-text">0%</p>
+        </div>
+
+        <div id="study-list">
+            <div class="subject-group">
+                <h3>権利関係 (民法など)</h3>
+                <ul>
+                    <li><input type="checkbox" id="kenri_01"><label for="kenri_01"><a href="details/kenri_01.html" target="_blank">意思表示（心裡留保・虚偽表示・錯誤・詐欺・強迫）</a></label></li>
+                    <li><input type="checkbox" id="kenri_02"><label for="kenri_02"><a href="#">制限行為能力者</a></label></li>
+                    <li><input type="checkbox" id="kenri_03"><label for="kenri_03"><a href="#">代理</a></label></li>
+                    <li><input type="checkbox" id="kenri_04"><label for="kenri_04"><a href="#">時効</a></label></li>
+                    <li><input type="checkbox" id="kenri_05"><label for="kenri_05"><a href="#">物権変動・対抗要件</a></label></li>
+                    <li><input type="checkbox" id="kenri_06"><label for="kenri_06"><a href="#">抵当権・根抵当権</a></label></li>
+                    <li><input type="checkbox" id="kenri_07"><label for="kenri_07"><a href="#">債務不履行・契約不適合責任</a></label></li>
+                    <li><input type="checkbox" id="kenri_08"><label for="kenri_08"><a href="#">保証・連帯保証</a></label></li>
+                    <li><input type="checkbox" id="kenri_09"><label for="kenri_09"><a href="#">賃貸借・借地借家法</a></label></li>
+                    <li><input type="checkbox" id="kenri_10"><label for="kenri_10"><a href="#">区分所有法</a></label></li>
+                    <li><input type="checkbox" id="kenri_11"><label for="kenri_11"><a href="#">不動産登記法</a></label></li>
+                </ul>
+            </div>
+
+            <div class="subject-group">
+                <h3>宅地建物取引業法</h3>
+                <ul>
+                    <li><input type="checkbox" id="gyoho_01"><label for="gyoho_01"><a href="#">事務所・案内所</a></label></li>
+                    <li><input type="checkbox" id="gyoho_02"><label for="gyoho_02"><a href="#">免許</a></label></li>
+                    <li><input type="checkbox" id="gyoho_03"><label for="gyoho_03"><a href="#">宅地建物取引士</a></label></li>
+                    <li><input type="checkbox" id="gyoho_04"><label for="gyoho_04"><a href="#">営業保証金・弁済業務保証金</a></label></li>
+                    <li><input type="checkbox" id="gyoho_05"><label for="gyoho_05"><a href="#">媒介契約・代理契約</a></label></li>
+                    <li><input type="checkbox" id="gyoho_06"><label for="gyoho_06"><a href="#">35条書面（重要事項説明）</a></label></li>
+                    <li><input type="checkbox" id="gyoho_07"><label for="gyoho_07"><a href="#">37条書面（契約書）</a></label></li>
+                    <li><input type="checkbox" id="gyoho_08"><label for="gyoho_08"><a href="#">8種制限（自ら売主制限）</a></label></li>
+                    <li><input type="checkbox" id="gyoho_09"><label for="gyoho_09"><a href="#">報酬</a></label></li>
+                    <li><input type="checkbox" id="gyoho_10"><label for="gyoho_10"><a href="#">監督・罰則</a></label></li>
+                    <li><input type="checkbox" id="gyoho_11"><label for="gyoho_11"><a href="#">住宅瑕疵担保履行法</a></label></li>
+                </ul>
+            </div>
+
+            <div class="subject-group">
+                <h3>法令上の制限</h3>
+                <ul>
+                    <li><input type="checkbox" id="horei_01"><label for="horei_01"><a href="#">都市計画法</a></label></li>
+                    <li><input type="checkbox" id="horei_02"><label for="horei_02"><a href="#">建築基準法</a></label></li>
+                    <li><input type="checkbox" id="horei_03"><label for="horei_03"><a href="#">国土利用計画法</a></label></li>
+                    <li><input type="checkbox" id="horei_04"><label for="horei_04"><a href="#">宅地造成等規制法</a></label></li>
+                    <li><input type="checkbox" id="horei_05"><label for="horei_05"><a href="#">農地法</a></label></li>
+                    <li><input type="checkbox" id="horei_06"><label for="horei_06"><a href="#">土地区画整理法</a></label></li>
+                </ul>
+            </div>
+
+            <div class="subject-group">
+                <h3>税・その他</h3>
+                 <ul>
+                    <li><input type="checkbox" id="tax_01"><label for="tax_01"><a href="#">不動産取得税・固定資産税</a></label></li>
+                    <li><input type="checkbox" id="tax_02"><label for="tax_02"><a href="#">印紙税・登録免許税</a></label></li>
+                    <li><input type="checkbox" id="tax_03"><label for="tax_03"><a href="#">譲渡所得税</a></label></li>
+                    <li><input type="checkbox" id="tax_04"><label for="tax_04"><a href="#">贈与税・相続税</a></label></li>
+                    <li><input type="checkbox" id="tax_05"><label for="tax_05"><a href="#">地価公示法・不動産鑑定評価</a></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
