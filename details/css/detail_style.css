@@ -1,0 +1,45 @@
+/* 詳細ページ用のスタイル */
+body {
+    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', sans-serif;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+h2 { color: #343a40; border-bottom: 1px solid #dee2e6; margin-top: 40px; padding-bottom: 5px; }
+h3 { color: #495057; margin-top: 30px; border-left: 5px solid #007bff; padding-left: 10px;}
+
+.point-summary { background-color: #e7f5ff; border: 1px solid #b3d7ff; border-radius: 5px; padding: 1px 20px; margin-bottom: 20px; }
+.point-summary ul { padding-left: 20px; }
+
+.example { background-color: #fffbe6; border: 1px solid #ffeeba; border-radius: 5px; padding: 15px; margin: 20px 0; }
+.example-title { font-weight: bold; color: #856404; }
+
+/* クイズセクション */
+.quiz-container { margin-top: 30px; }
+.quiz-item { background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 5px; padding: 20px; margin-bottom: 20px; }
+.quiz-item p.question { font-weight: bold; font-size: 1.1em; }
+.quiz-item ul.choices { list-style: none; padding: 0; }
+.quiz-item ul.choices li { background-color: #fff; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+.quiz-item ul.choices li:hover { background-color: #f1f3f5; }
+
+/* 正解・不正解のスタイル */
+.quiz-item ul.choices li.correct { background-color: #d4edda; border-color: #c3e6cb; color: #155724; font-weight: bold; }
+.quiz-item ul.choices li.incorrect { background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; }
+.quiz-item ul.choices li.disabled { pointer-events: none; opacity: 0.7; }
+
+.explanation { display: none; margin-top: 15px; padding: 15px; background-color: #e9ecef; border-radius: 5px; }
+.explanation .label { font-weight: bold; }
+.explanation .label-correct { color: #28a745; }
+.explanation .label-incorrect { color: #dc3545; }
+
+.back-link { display: inline-block; margin-top: 30px; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; }
+.back-link:hover { background-color: #5a6268; }

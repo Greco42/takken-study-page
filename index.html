@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>宅建士 学習管理ページ</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 20px; color: #333; }
-    h1 { color: #2c3e50; text-align: center; }
-    table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
-    th { background-color: #3498db; color: white; }
-    tr:nth-child(even) { background-color: #f9f9f9; }
-    .progress-bar {
-      height: 20px;
-      background-color: #e0e0e0;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .progress {
-      height: 100%;
-      background-color: #2ecc71;
-      text-align: center;
-      color: white;
-      line-height: 20px;
-    }
-    a { color: #2980b9; text-decoration: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宅建士 自己学習支援サイト</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>📚 宅建士 学習管理ページ</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>項目</th>
-        <th>リンク</th>
-        <th>進捗</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>01. 免許制度</td><td><a href="./details/01_Menkyo.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>02. 義務・保証金</td><td><a href="./details/02_Gimu_Hoshokin.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>03. 宅建士</td><td><a href="./details/03_TakkenShi.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>04. 権利関係の基本原則</td><td><a href="./details/04_Kenri_Gensoku.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>05. 売買契約</td><td><a href="./details/05_Baibai.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>06. 賃貸借契約</td><td><a href="./details/06_Chintai.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>07. 物権</td><td><a href="./details/07_Bukken.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>08. 抵当権</td><td><a href="./details/08_Teitou.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>09. 相続・遺言</td><td><a href="./details/09_Souzoku.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>10. 時効</td><td><a href="./details/10_Jikou.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>11. 法令上の制限</td><td><a href="./details/11_Hourei.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>12. 都市計画法</td><td><a href="./details/12_Toshikeikaku.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>13. 建築基準法</td><td><a href="./details/13_Kenchiku.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>14. 宅地造成等規制法</td><td><a href="./details/14_Zousei.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>15. 農地法</td><td><a href="./details/15_Nouchi.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>16. その他法令</td><td><a href="./details/16_Sonota.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>17. 不動産登記</td><td><a href="./details/17_Touki.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>18. 不動産鑑定・価格</td><td><a href="./details/18_Kantei.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-      <tr><td>19. 統計・その他</td><td><a href="./details/19_Toukei_Sonota.html" target="_blank">開く</a></td><td><div class="progress-bar"><div class="progress" style="width: 0%;">0%</div></div></td></tr>
-    </tbody>
-  </table>
+    <div class="container">
+        <header>
+            <h1>宅建士 自己学習支援サイト</h1>
+            <p>自分のペースで宅建試験の合格を目指しましょう。</p>
+        </header>
+        <div class="challenge-link-container">
+            <a href="jitsuryoku_check.html" class="challenge-button">力試し！実践チェック50問に挑戦</a>
+        </div>
+        <section class="progress-section">
+            <h2>学習進捗率</h2>
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <p id="progress-text">0%</p>
+        </section>
+        <main>
+            <section class="subject-group">
+                <h3>① 宅建業法（20問）</h3>
+                <ul>
+                    <li><input type="checkbox" id="gyoho_01"><label for="gyoho_01"><a href="details/gyoho_01.html">宅建業の免許</a></label></li>
+                    <li><input type="checkbox" id="gyoho_02"><label for="gyoho_02"><a href="details/gyoho_02.html">免許の有効期間</a></label></li>
+                    <li><input type="checkbox" id="gyoho_03"><label for="gyoho_03"><a href="details/gyoho_03.html">専任の宅建士</a></label></li>
+                    <li><input type="checkbox" id="gyoho_04"><label for="gyoho_04"><a href="details/gyoho_04.html">重要事項説明書（35条書面）</a></label></li>
+                    <li><input type="checkbox" id="gyoho_05"><label for="gyoho_05"><a href="details/gyoho_05.html">契約書（37条書面）</a></label></li>
+                    <li><input type="checkbox" id="gyoho_06"><label for="gyoho_06"><a href="details/gyoho_06.html">クーリングオフ</a></label></li>
+                    <li><input type="checkbox" id="gyoho_07"><label for="gyoho_07"><a href="details/gyoho_07.html">報酬額の上限</a></label></li>
+                    <li><input type="checkbox" id="gyoho_08"><label for="gyoho_08"><a href="details/gyoho_08.html">自ら売主の制限</a></label></li>
+                </ul>
+            </section>
+            <section class="subject-group">
+                <h3>② 権利関係（14問）</h3>
+                <ul>
+                    <li><input type="checkbox" id="kenri_01"><label for="kenri_01"><a href="details/kenri_01.html">意思表示・錯誤・詐欺</a></label></li>
+                    <li><input type="checkbox" id="kenri_02"><label for="kenri_02"><a href="details/kenri_02.html">制限行為能力者</a></label></li>
+                    <li><input type="checkbox" id="kenri_03"><label for="kenri_03"><a href="details/kenri_03.html">時効</a></label></li>
+                    <li><input type="checkbox" id="kenri_04"><label for="kenri_04"><a href="details/kenri_04.html">連帯保証</a></label></li>
+                    <li><input type="checkbox" id="kenri_05"><label for="kenri_05"><a href="details/kenri_05.html">不法行為</a></label></li>
+                    <li><input type="checkbox" id="kenri_06"><label for="kenri_06"><a href="details/kenri_06.html">借地借家法</a></label></li>
+                    <li><input type="checkbox" id="kenri_07"><label for="kenri_07"><a href="details/kenri_07.html">相続</a></label></li>
+                    <li><input type="checkbox" id="kenri_08"><label for="kenri_08"><a href="details/kenri_08.html">代理</a></label></li>
+                </ul>
+            </section>
+            <section class="subject-group">
+                <h3>③ 法令上の制限（8問）</h3>
+                <ul>
+                    <li><input type="checkbox" id="horei_01"><label for="horei_01"><a href="details/horei_01.html">都市計画区域</a></label></li>
+                    <li><input type="checkbox" id="horei_02"><label for="horei_02"><a href="details/horei_02.html">建ぺい率・容積率</a></label></li>
+                    <li><input type="checkbox" id="horei_03"><label for="horei_03"><a href="details/horei_03.html">用途地域</a></label></li>
+                    <li><input type="checkbox" id="horei_04"><label for="horei_04"><a href="details/horei_04.html">建築制限</a></label></li>
+                    <li><input type="checkbox" id="horei_05"><label for="horei_05"><a href="details/horei_05.html">開発許可</a></label></li>
+                    <li><input type="checkbox" id="horei_06"><label for="horei_06"><a href="details/horei_06.html">農地法</a></label></li>
+                    <li><input type="checkbox" id="horei_07"><label for="horei_07"><a href="details/horei_07.html">景観法</a></label></li>
+                </ul>
+            </section>
+            <section class="subject-group">
+                <h3>④ 税・その他（8問）</h3>
+                <ul>
+                    <li><input type="checkbox" id="tax_01"><label for="tax_01"><a href="details/tax_01.html">登録免許税</a></label></li>
+                    <li><input type="checkbox" id="tax_02"><label for="tax_02"><a href="details/tax_02.html">不動産取得税</a></label></li>
+                    <li><input type="checkbox" id="tax_03"><label for="tax_03"><a href="details/tax_03.html">固定資産税</a></label></li>
+                    <li><input type="checkbox" id="tax_04"><label for="tax_04"><a href="details/tax_04.html">印紙税</a></label></li>
+                    <li><input type="checkbox" id="tax_05"><label for="tax_05"><a href="details/tax_05.html">地価公示法</a></label></li>
+                    <li><input type="checkbox" id="tax_06"><label for="tax_06"><a href="details/tax_06.html">住宅金融支援機構</a></label></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

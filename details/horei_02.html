@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法令上の制限 - 建ぺい率・容積率</title>
+    <link rel="stylesheet" href="css/detail_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>法令上の制限 - 建ぺい率・容積率</h1>
+        <section id="summary">
+            <h2>重要ポイント要約</h2>
+            <div class="point-summary">
+                <ul>
+                    <li><strong>建ぺい率</strong>：敷地面積に対する<strong>建築面積</strong>（建物を真上から見た面積）の割合。敷地をどれだけ広く使えるか。</li>
+                    <li><strong>容積率</strong>：敷地面積に対する建物の<strong>延べ面積</strong>（各階の床面積の合計）の割合。どれだけ大きな（床面積の広い）建物を建てられるか。</li>
+                    <li>建ぺい率には<strong>緩和措置</strong>がある。（例：角地、防火地域内の耐火建築物）</li>
+                    <li>容積率は、前面道路の幅員が12m未満の場合、<strong>幅員 × 法定乗数</strong>で計算した数値も上限となる（道路幅員制限）。</li>
+                    <li>延べ面積の計算では、地階、共同住宅の共用部分、駐車場など、一定の部分が算入されない特例がある。</li>
+                </ul>
+            </div>
+        </section>
+        <section id="details">
+            <h2>詳細解説</h2>
+            <h3>1. 建ぺい率（建蔽率）</h3>
+            <p>建ぺい率とは、敷地面積に対する建築面積の割合です。計算式は以下の通りです。</p>
+            <p><strong>建ぺい率（%） = （建築面積 ÷ 敷地面積） × 100</strong></p>
+            <p>例えば、敷地面積100㎡で建ぺい率が60%なら、建築面積は60㎡までとなります。この規制により、敷地内に一定の空地を確保し、日照や通風、防災性を高める目的があります。</p>
+            <h4>建ぺい率の緩和</h4>
+            <p>一定の条件を満たすと、都市計画で定められた建ぺい率が緩和（割増）されます。</p>
+            <ul>
+                <li>特定の角地にある敷地：<strong>+10%</strong></li>
+                <li>防火地域内にある耐火建築物等：<strong>+10%</strong></li>
+            </ul>
+            <p>両方の条件を満たす場合は、合計で+20%の緩和が受けられます。また、建ぺい率80%とされている地域で、防火地域内にある耐火建築物等は、建ぺい率の制限が適用されなくなり、100%（敷地いっぱいに）建築できます。</p>
+            <h3>2. 容積率</h3>
+            <p>容積率とは、敷地面積に対する建物の延べ面積（各階の床面積の合計）の割合です。計算式は以下の通りです。</p>
+            <p><strong>容積率（%） = （延べ面積 ÷ 敷地面積） × 100</strong></p>
+            <h4>前面道路の幅員による容積率制限</h4>
+            <p>前面道路の幅員が12m未満の場合、都市計画で定められた指定容積率のほかに、以下の計算で求められる容積率も上限となります。この2つのうち、<strong>厳しい（小さい）方</strong>がその敷地の容積率の上限となります。</p>
+            <p><strong>道路幅員による容積率 = 前面道路の幅員(m) × 法定乗数</strong></p>
+            <p>※法定乗数：住居系の用途地域は4/10、その他（商業系・工業系）の用途地域は6/10。</p>
+        </section>
+        <section id="quiz">
+            <h2>知識チェック</h2>
+            <div class="quiz-container">
+                <div class="quiz-item"><p class="question">問1. 敷地面積200㎡、建築面積100㎡の建物の建ぺい率は何%か。</p><ul class="choices"><li data-correct="false">1. 20%</li><li data-correct="true">2. 50%</li><li data-correct="false">3. 60%</li><li data-correct="false">4. 200%</li></ul><div class="explanation"><p><span class="label label-correct">正解は2</span></p><p>建ぺい率 = 建築面積 ÷ 敷地面積 なので、100㎡ ÷ 200㎡ = 0.5 となり、50%です。</p></div></div>
+                <div class="quiz-item"><p class="question">問2. 敷地面積200㎡、容積率の上限が150%の場合、建築できる延べ面積の上限は何㎡か。</p><ul class="choices"><li data-correct="false">1. 150㎡</li><li data-correct="false">2. 200㎡</li><li data-correct="true">3. 300㎡</li><li data-correct="false">4. 400㎡</li></ul><div class="explanation"><p><span class="label label-correct">正解は3</span></p><p>延べ面積の上限 = 敷地面積 × 容積率 なので、200㎡ × 150% (1.5) = 300㎡となります。</p></div></div>
+                <div class="quiz-item"><p class="question">問3. 第一種住居地域内で、前面道路の幅員が4mの敷地がある。この敷地の道路幅員による容積率の上限は何%か。</p><ul class="choices"><li data-correct="false">1. 80%</li><li data-correct="true">2. 160%</li><li data-correct="false">3. 240%</li><li data-correct="false">4. 400%</li></ul><div class="explanation"><p><span class="label label-correct">正解は2</span></p><p>住居系の用途地域なので、法定乗数は4/10です。計算式は、4m × (4/10) = 1.6 となり、160%が上限です。</p></div></div>
+                <div class="quiz-item"><p class="question">問4. 建ぺい率の緩和措置に関する記述として、正しいものはどれか。</p><ul class="choices"><li data-correct="true">1. 防火地域内にある耐火建築物は、建ぺい率が10%加算される。</li><li data-correct="false">2. 準防火地域内にある耐火建築物は、建ぺい率が20%加算される。</li><li data-correct="false">3. 特定行政庁が指定する角地は、建ぺい率が20%加算される。</li><li data-correct="false">4. すべての商業地域では、建ぺい率の制限が適用されない。</li></ul><div class="explanation"><p><span class="label label-correct">正解は1</span></p><p>防火地域内の耐火建築物等には、建ぺい率の緩和（+10%）があります。角地緩和も+10%です。建ぺい率制限が適用されなくなるのは、建ぺい率80%の地域で、かつ防火地域内の耐火建築物等の場合です。</p></div></div>
+                <div class="quiz-item"><p class="question">問5. 容積率の計算の基礎となる延べ面積に、算入されないものは次のうちどれか。</p><ul class="choices"><li data-correct="false">1. 地上3階の居室の床面積</li><li data-correct="true">2. 延べ面積の1/3を限度とする、地階の住宅部分の床面積</li><li data-correct="false">3. エレベーターの機械室の床面積</li><li data-correct="false">4. 屋根のある屋外駐車場の床面積</li></ul><div class="explanation"><p><span class="label label-correct">正解は2</span></p><p>住宅の地階で、その天井が地盤面からの高さ1m以下にあるものの住宅部分の床面積は、その建物の住宅部分の床面積の合計の1/3を限度として、容積率計算上の延べ面積に算入されません。</p></div></div>
+            </div>
+        </section>
+        <a href="../index.html" class="back-link">メインページに戻る</a>
+    </div>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
